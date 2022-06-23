@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+C:/Users/Black/Source/Repos/fangwaipo/CMakeLists.txt
+C:/Users/Black/Source/Repos/fangwaipo/GeneralLibs/3rdparty-config.cmake
+C:/Users/Black/Source/Repos/fangwaipo/build/CMakeFiles/3.18.0/CMakeCCompiler.cmake
+C:/Users/Black/Source/Repos/fangwaipo/build/CMakeFiles/3.18.0/CMakeCXXCompiler.cmake
+C:/Users/Black/Source/Repos/fangwaipo/build/CMakeFiles/3.18.0/CMakeRCCompiler.cmake
+C:/Users/Black/Source/Repos/fangwaipo/build/CMakeFiles/3.18.0/CMakeSystem.cmake
+E:/Cmake/share/cmake-3.18/Modules/CMakeCInformation.cmake
+E:/Cmake/share/cmake-3.18/Modules/CMakeCXXInformation.cmake
+E:/Cmake/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake
+E:/Cmake/share/cmake-3.18/Modules/CMakeGenericSystem.cmake
+E:/Cmake/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake
+E:/Cmake/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake
+E:/Cmake/share/cmake-3.18/Modules/CMakeRCInformation.cmake
+E:/Cmake/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake
+E:/Cmake/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake
+E:/Cmake/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/Cmake/share/cmake-3.18/Modules/Compiler/MSVC-C.cmake
+E:/Cmake/share/cmake-3.18/Modules/Compiler/MSVC-CXX.cmake
+E:/Cmake/share/cmake-3.18/Modules/Platform/Windows-MSVC-C.cmake
+E:/Cmake/share/cmake-3.18/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/Cmake/share/cmake-3.18/Modules/Platform/Windows-MSVC.cmake
+E:/Cmake/share/cmake-3.18/Modules/Platform/Windows.cmake
+E:/Cmake/share/cmake-3.18/Modules/Platform/WindowsPaths.cmake

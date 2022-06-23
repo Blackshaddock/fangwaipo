@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{957D0B6D-05AD-3527-BD48-C25881286572}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>mine</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Black\Source\Repos\fangwaipo\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mine.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Black\Source\Repos\fangwaipo\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mine.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Black\Source\Repos\fangwaipo\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mine.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Black\Source\Repos\fangwaipo\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mine.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\boost-1_60;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\ceres;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\eigen3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcl-1.8;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcap-dev;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\FLANN;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\opencv;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\xerces-c-3.2.3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\yaml-cpp;C:\Users\Black\Source\Repos\fangwaipo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++14</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DEFINE_FLAG=;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;GFLAGS_IS_A_DLL=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DEFINE_FLAG=;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;GFLAGS_IS_A_DLL=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\boost-1_60;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\ceres;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\eigen3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcl-1.8;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcap-dev;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\FLANN;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\opencv;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\xerces-c-3.2.3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\yaml-cpp;C:\Users\Black\Source\Repos\fangwaipo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\boost-1_60;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\ceres;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\eigen3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcl-1.8;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcap-dev;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\FLANN;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\opencv;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\xerces-c-3.2.3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\yaml-cpp;C:\Users\Black\Source\Repos\fangwaipo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_exception-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_system-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_filesystem-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_thread-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_date_time-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_chrono-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_iostreams-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_zlib-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_regex-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\ceres.lib;..\GeneralLibs\VS2015_x64\libs\Release\glog\glog.lib;..\GeneralLibs\VS2015_x64\libs\Release\gflags\gflags.lib;..\GeneralLibs\VS2015_x64\libs\Release\gflags\gflags_nothreads.lib;..\GeneralLibs\VS2015_x64\libs\Release\liblas.lib;..\GeneralLibs\VS2015_x64\libs\Release\lapack_blas\liblapack.lib;..\GeneralLibs\VS2015_x64\libs\Release\lapack_blas\libblas.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\suitesparseconfig.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\SuiteSparse_GPURuntime.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcxsparse.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\metis.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcholmod.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcolamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libccolamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_common_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_io_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_kdtree_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_search_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_segmentation_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_sample_consensus_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_octree_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_features_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_filters_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\flann\flann_cpp_s.lib;..\GeneralLibs\VS2015_x64\libs\Release\flann\flann_s.lib;..\GeneralLibs\VS2015_x64\libs\Release\flann\flann.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcap\Packet.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcap\wpcap.lib;..\GeneralLibs\VS2015_x64\libs\Release\pthreadVC2.lib;..\GeneralLibs\VS2015_x64\libs\Release\Bag2File.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_ccalib348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_core348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_highgui348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_imgcodecs348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_video348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_videoio348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_calib3d348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_imgproc348.lib;..\GeneralLibs\VS2015_x64\libs\Release\xerces-c_3.lib;..\GeneralLibs\VS2015_x64\libs\Release\yaml-cpp.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\rosbag.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\roscpp.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\roslib.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\rostime.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\rosconsole.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\roscpp_serialization.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Black/Source/Repos/fangwaipo/GeneralLibs/VS2015_x64/libs/Release/boost;C:/Users/Black/Source/Repos/fangwaipo/GeneralLibs/VS2015_x64/libs/Release/boost/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Black/Source/Repos/fangwaipo/build/Debug/mine.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Black/Source/Repos/fangwaipo/build/Debug/mine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\boost-1_60;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\ceres;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\eigen3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcl-1.8;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcap-dev;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\FLANN;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\opencv;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\xerces-c-3.2.3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\yaml-cpp;C:\Users\Black\Source\Repos\fangwaipo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++14</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DEFINE_FLAG=;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;GFLAGS_IS_A_DLL=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DEFINE_FLAG=;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;GFLAGS_IS_A_DLL=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\boost-1_60;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\ceres;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\eigen3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcl-1.8;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcap-dev;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\FLANN;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\opencv;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\xerces-c-3.2.3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\yaml-cpp;C:\Users\Black\Source\Repos\fangwaipo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\boost-1_60;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\ceres;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\eigen3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcl-1.8;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcap-dev;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\FLANN;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\opencv;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\xerces-c-3.2.3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\yaml-cpp;C:\Users\Black\Source\Repos\fangwaipo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_exception-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_system-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_filesystem-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_thread-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_date_time-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_chrono-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_iostreams-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_zlib-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_regex-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\ceres.lib;..\GeneralLibs\VS2015_x64\libs\Release\glog\glog.lib;..\GeneralLibs\VS2015_x64\libs\Release\gflags\gflags.lib;..\GeneralLibs\VS2015_x64\libs\Release\gflags\gflags_nothreads.lib;..\GeneralLibs\VS2015_x64\libs\Release\liblas.lib;..\GeneralLibs\VS2015_x64\libs\Release\lapack_blas\liblapack.lib;..\GeneralLibs\VS2015_x64\libs\Release\lapack_blas\libblas.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\suitesparseconfig.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\SuiteSparse_GPURuntime.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcxsparse.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\metis.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcholmod.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcolamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libccolamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_common_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_io_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_kdtree_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_search_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_segmentation_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_sample_consensus_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_octree_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_features_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_filters_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\flann\flann_cpp_s.lib;..\GeneralLibs\VS2015_x64\libs\Release\flann\flann_s.lib;..\GeneralLibs\VS2015_x64\libs\Release\flann\flann.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcap\Packet.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcap\wpcap.lib;..\GeneralLibs\VS2015_x64\libs\Release\pthreadVC2.lib;..\GeneralLibs\VS2015_x64\libs\Release\Bag2File.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_ccalib348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_core348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_highgui348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_imgcodecs348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_video348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_videoio348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_calib3d348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_imgproc348.lib;..\GeneralLibs\VS2015_x64\libs\Release\xerces-c_3.lib;..\GeneralLibs\VS2015_x64\libs\Release\yaml-cpp.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\rosbag.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\roscpp.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\roslib.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\rostime.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\rosconsole.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\roscpp_serialization.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Black/Source/Repos/fangwaipo/GeneralLibs/VS2015_x64/libs/Release/boost;C:/Users/Black/Source/Repos/fangwaipo/GeneralLibs/VS2015_x64/libs/Release/boost/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Black/Source/Repos/fangwaipo/build/Release/mine.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Black/Source/Repos/fangwaipo/build/Release/mine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\boost-1_60;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\ceres;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\eigen3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcl-1.8;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcap-dev;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\FLANN;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\opencv;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\xerces-c-3.2.3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\yaml-cpp;C:\Users\Black\Source\Repos\fangwaipo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++14</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DEFINE_FLAG=;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;GFLAGS_IS_A_DLL=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DEFINE_FLAG=;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;GFLAGS_IS_A_DLL=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\boost-1_60;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\ceres;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\eigen3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcl-1.8;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcap-dev;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\FLANN;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\opencv;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\xerces-c-3.2.3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\yaml-cpp;C:\Users\Black\Source\Repos\fangwaipo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\boost-1_60;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\ceres;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\eigen3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcl-1.8;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcap-dev;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\FLANN;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\opencv;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\xerces-c-3.2.3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\yaml-cpp;C:\Users\Black\Source\Repos\fangwaipo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_exception-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_system-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_filesystem-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_thread-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_date_time-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_chrono-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_iostreams-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_zlib-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_regex-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\ceres.lib;..\GeneralLibs\VS2015_x64\libs\Release\glog\glog.lib;..\GeneralLibs\VS2015_x64\libs\Release\gflags\gflags.lib;..\GeneralLibs\VS2015_x64\libs\Release\gflags\gflags_nothreads.lib;..\GeneralLibs\VS2015_x64\libs\Release\liblas.lib;..\GeneralLibs\VS2015_x64\libs\Release\lapack_blas\liblapack.lib;..\GeneralLibs\VS2015_x64\libs\Release\lapack_blas\libblas.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\suitesparseconfig.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\SuiteSparse_GPURuntime.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcxsparse.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\metis.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcholmod.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcolamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libccolamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_common_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_io_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_kdtree_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_search_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_segmentation_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_sample_consensus_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_octree_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_features_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_filters_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\flann\flann_cpp_s.lib;..\GeneralLibs\VS2015_x64\libs\Release\flann\flann_s.lib;..\GeneralLibs\VS2015_x64\libs\Release\flann\flann.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcap\Packet.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcap\wpcap.lib;..\GeneralLibs\VS2015_x64\libs\Release\pthreadVC2.lib;..\GeneralLibs\VS2015_x64\libs\Release\Bag2File.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_ccalib348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_core348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_highgui348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_imgcodecs348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_video348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_videoio348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_calib3d348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_imgproc348.lib;..\GeneralLibs\VS2015_x64\libs\Release\xerces-c_3.lib;..\GeneralLibs\VS2015_x64\libs\Release\yaml-cpp.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\rosbag.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\roscpp.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\roslib.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\rostime.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\rosconsole.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\roscpp_serialization.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Black/Source/Repos/fangwaipo/GeneralLibs/VS2015_x64/libs/Release/boost;C:/Users/Black/Source/Repos/fangwaipo/GeneralLibs/VS2015_x64/libs/Release/boost/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Black/Source/Repos/fangwaipo/build/MinSizeRel/mine.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Black/Source/Repos/fangwaipo/build/MinSizeRel/mine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\boost-1_60;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\ceres;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\eigen3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcl-1.8;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcap-dev;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\FLANN;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\opencv;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\xerces-c-3.2.3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\yaml-cpp;C:\Users\Black\Source\Repos\fangwaipo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++14</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DEFINE_FLAG=;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;GFLAGS_IS_A_DLL=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GFLAGS_DLL_DECLARE_FLAG=;GFLAGS_DLL_DEFINE_FLAG=;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;GFLAGS_IS_A_DLL=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\boost-1_60;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\ceres;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\eigen3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcl-1.8;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcap-dev;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\FLANN;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\opencv;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\xerces-c-3.2.3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\yaml-cpp;C:\Users\Black\Source\Repos\fangwaipo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\boost-1_60;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\ceres;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\eigen3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcl-1.8;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\pcap-dev;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\FLANN;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\opencv;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\xerces-c-3.2.3;C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\VS2015_x64\include\yaml-cpp;C:\Users\Black\Source\Repos\fangwaipo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_exception-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_system-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_filesystem-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_thread-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_date_time-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_chrono-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_iostreams-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_zlib-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\boost\libboost_regex-vc140-mt-1_60.lib;..\GeneralLibs\VS2015_x64\libs\Release\ceres.lib;..\GeneralLibs\VS2015_x64\libs\Release\glog\glog.lib;..\GeneralLibs\VS2015_x64\libs\Release\gflags\gflags.lib;..\GeneralLibs\VS2015_x64\libs\Release\gflags\gflags_nothreads.lib;..\GeneralLibs\VS2015_x64\libs\Release\liblas.lib;..\GeneralLibs\VS2015_x64\libs\Release\lapack_blas\liblapack.lib;..\GeneralLibs\VS2015_x64\libs\Release\lapack_blas\libblas.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\suitesparseconfig.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\SuiteSparse_GPURuntime.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcxsparse.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\metis.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcholmod.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libcolamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\suitesparse\libccolamd.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_common_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_io_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_kdtree_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_search_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_segmentation_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_sample_consensus_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_octree_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_features_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcl\pcl_filters_release.lib;..\GeneralLibs\VS2015_x64\libs\Release\flann\flann_cpp_s.lib;..\GeneralLibs\VS2015_x64\libs\Release\flann\flann_s.lib;..\GeneralLibs\VS2015_x64\libs\Release\flann\flann.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcap\Packet.lib;..\GeneralLibs\VS2015_x64\libs\Release\pcap\wpcap.lib;..\GeneralLibs\VS2015_x64\libs\Release\pthreadVC2.lib;..\GeneralLibs\VS2015_x64\libs\Release\Bag2File.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_ccalib348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_core348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_highgui348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_imgcodecs348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_video348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_videoio348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_calib3d348.lib;..\GeneralLibs\VS2015_x64\libs\Release\opencv\opencv_imgproc348.lib;..\GeneralLibs\VS2015_x64\libs\Release\xerces-c_3.lib;..\GeneralLibs\VS2015_x64\libs\Release\yaml-cpp.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\rosbag.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\roscpp.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\roslib.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\rostime.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\rosconsole.lib;..\GeneralLibs\VS2015_x64\libs\Release\ros\roscpp_serialization.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Black/Source/Repos/fangwaipo/GeneralLibs/VS2015_x64/libs/Release/boost;C:/Users/Black/Source/Repos/fangwaipo/GeneralLibs/VS2015_x64/libs/Release/boost/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Black/Source/Repos/fangwaipo/build/RelWithDebInfo/mine.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Black/Source/Repos/fangwaipo/build/RelWithDebInfo/mine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Black\Source\Repos\fangwaipo\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Black/Source/Repos/fangwaipo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\Cmake\bin\cmake.exe -SC:/Users/Black/Source/Repos/fangwaipo -BC:/Users/Black/Source/Repos/fangwaipo/build --check-stamp-file C:/Users/Black/Source/Repos/fangwaipo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\3rdparty-config.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeCCompiler.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeCXXCompiler.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeRCCompiler.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeSystem.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeCInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;E:\Cmake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Cmake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;E:\Cmake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Black/Source/Repos/fangwaipo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\Cmake\bin\cmake.exe -SC:/Users/Black/Source/Repos/fangwaipo -BC:/Users/Black/Source/Repos/fangwaipo/build --check-stamp-file C:/Users/Black/Source/Repos/fangwaipo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\3rdparty-config.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeCCompiler.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeCXXCompiler.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeRCCompiler.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeSystem.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeCInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;E:\Cmake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Cmake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;E:\Cmake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Black/Source/Repos/fangwaipo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\Cmake\bin\cmake.exe -SC:/Users/Black/Source/Repos/fangwaipo -BC:/Users/Black/Source/Repos/fangwaipo/build --check-stamp-file C:/Users/Black/Source/Repos/fangwaipo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\3rdparty-config.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeCCompiler.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeCXXCompiler.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeRCCompiler.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeSystem.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeCInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;E:\Cmake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Cmake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;E:\Cmake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Black/Source/Repos/fangwaipo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\Cmake\bin\cmake.exe -SC:/Users/Black/Source/Repos/fangwaipo -BC:/Users/Black/Source/Repos/fangwaipo/build --check-stamp-file C:/Users/Black/Source/Repos/fangwaipo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Black\Source\Repos\fangwaipo\GeneralLibs\3rdparty-config.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeCCompiler.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeCXXCompiler.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeRCCompiler.cmake;C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\3.18.0\CMakeSystem.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeCInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;E:\Cmake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;E:\Cmake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Cmake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;E:\Cmake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\Windows.cmake;E:\Cmake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Black\Source\Repos\fangwaipo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Black\Source\Repos\fangwaipo\src\io.cpp" />
+    <ClCompile Include="C:\Users\Black\Source\Repos\fangwaipo\src\param.cpp" />
+    <ClCompile Include="C:\Users\Black\Source\Repos\fangwaipo\src\useSophus.cpp" />
+    <ClInclude Include="C:\Users\Black\Source\Repos\fangwaipo\src\util.hpp" />
+    <ClInclude Include="C:\Users\Black\Source\Repos\fangwaipo\include\io.h" />
+    <ClInclude Include="C:\Users\Black\Source\Repos\fangwaipo\include\param.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Black\Source\Repos\fangwaipo\build\ZERO_CHECK.vcxproj">
+      <Project>{BA14160B-0D85-3592-A571-C7D6101B8934}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

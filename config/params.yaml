@@ -1,0 +1,22 @@
+%YAML:1.0
+
+
+#输入图片和保存图片路径
+
+first_file: "C:\\Users\\Black\\Desktop\\2022-03-16\\needupload\\needupload\\test\\firstcloud.txt"
+refer_file: "C:\\Users\\Black\\Desktop\\2022-03-16\\needupload\\needupload\\test\\2022-03-21-15-34-19.txt"
+cur_file: "C:\\Users\\Black\\Desktop\\2022-03-16\\needupload\\needupload\\test\\2022-03-21-16-04-53.txt"
+
+# camera model   orderimagefile   video2pic    calibrate maskimage
+camera_type: "perspective"
+process_type: "calibrate"
+
+image_width: 3744
+image_height: 2106
+
+board_width: 11
+board_height: 8
+
+image_count: 99
+
+square_size: 30.2
